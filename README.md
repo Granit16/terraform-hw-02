@@ -20,10 +20,10 @@
    5. Подключился к созданной ВМ по SSH используюя имя пользователя **ubuntu**, публичный ip-адрес и ранее сгенерированный ssh-ключ. Команда curl ifconfig.me вернула публичный ip-адрес ВМ.
 
       <details><summary>Созданная ВМ в облаке</summary>
-         ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/screen_1_6_1.png)
+         ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen_1_6_1.png)
       </details>
       <details><summary>Вывод команды **curl** в консоле</summary>
-         ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/screen_1_6_2.png)
+         ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen_1_6_2.png)
       </details>
    
       
