@@ -22,9 +22,12 @@
 
       
       Созданная ВМ в облаке
+      
          ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen1_6_1.png)
       
+
       Вывод команды **curl** в консоле
+      
          ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen1_6_2.png)
 
 </details>
