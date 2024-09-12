@@ -21,12 +21,12 @@
    6. Использование парметров **preemptible = true** и **core_fraction=5** позволяет сэкномить бюджет во время обучения.
 
       
-      Созданная ВМ в облаке
+      ## Созданная ВМ в облаке
       
          ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen1_6_1.png)
       
 
-      Вывод команды **curl** в консоле
+      ## Вывод команды **curl** в консоле
       
          ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen1_6_2.png)
 
