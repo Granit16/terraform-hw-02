@@ -19,9 +19,12 @@
    4. Инициализирал проект, выполнил код обнаружил синтаксическую ошибку: значение параметра **platform_id** было написано ошибочно через букву **"t"**; также версия платформы была недоступна в моей зоне. После исправления указанных ошибок, код выполнился и в облаке была создана ВМ с заданными параметрами
    5. Подключился к созданной ВМ по SSH используюя имя пользователя **ubuntu**, публичный ip-адрес и ранее сгенерированный ssh-ключ. Команда curl ifconfig.me вернула публичный ip-адрес ВМ.
 
-   <details><summary>Скриншот1</summary>
-   ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/docker_version.png)
-   </details>
+      <details><summary>Созданная ВМ в облаке</summary>
+         ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/screen_1_6_1.png)
+      </details>
+      <details><summary>Вывод команды **curl** в консоле</summary>
+         ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/screen_1_6_2.png)
+      </details>
    
       
    6. Использование парметров **preemptible = true** и **core_fraction=5** позволяет сэкномить бюджет во время обучения.
