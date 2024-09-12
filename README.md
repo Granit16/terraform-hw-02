@@ -26,7 +26,7 @@
          ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen1_6_2.png)
       </details>
    
-      
+      ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen1_6_2.png)
    6. Использование парметров **preemptible = true** и **core_fraction=5** позволяет сэкномить бюджет во время обучения.
 
 </details>
