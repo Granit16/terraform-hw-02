@@ -44,7 +44,10 @@
 <details><summary>Задание 3</summary>
 
   Создал в корне проекта файл 'vms_platform.tf' . Перенес в него переменные первой ВМ: **vm_web_instance_name** и **vm_web_planform**.
-В файле main.tf создал вторую ВМ с именем "netology-develop-platform-db" , cores  = 2, memory = 2, core_fraction = 20, по аналогии с существующей. Её переменные объявил в том же файле **vms_platform.tf**, но уже с префиксом vm_db_. Зону цказал **ru-central1-b**
+
+В файле main.tf создал вторую ВМ с именем "netology-develop-platform-db" , cores  = 2, memory = 2, core_fraction = 20, по аналогии с существующей.
+Её переменные объявил в том же файле **vms_platform.tf**, но уже с префиксом vm_db_. Зону указал **ru-central1-b**
+
 Применил изменения.
 </details>
 
