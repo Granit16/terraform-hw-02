@@ -28,4 +28,7 @@ locals {
       disks = ["vda", "vdb", "vdc", "vdd"]
     }
   }
+
+  four = "${ local.test_map["admin"] } is ${ keys(local.test_map).0 } for ${ keys(local.servers).1 } server based on OS ${ local.servers.production.image } with ${ local.servers.production.cpu } cpu, ${ local.servers.production.ram } ram and ${ length(local.servers.production.disks) } virtual disks"
+
 }
