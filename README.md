@@ -59,3 +59,11 @@
 
  ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen4.png)
 </details>
+
+<details><summary>Задание 5</summary>
+Описал в файле locals.tf в local-блоке имя каждой ВМ, использовал интерполяцию ```name = "netology-${ var.env[i]}-platform-${ var.project[j] }"```.
+Замените переменные внутри ресурса ВМ на созданные вами local-переменные.
+Примените изменения.
+</details>
+
+
