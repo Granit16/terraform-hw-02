@@ -34,8 +34,9 @@
 
 <details><summary>Задание 2</summary>
 
-
-   Для ресурсов yandex_compute_image и yandex_compute_instance заменил хардкод-значения на переменные **vm_web_image_family**, **vm_web_vpc_name**, **vm_web_platform**, объявив их в файле variables.tf. Заполнил их default прежними значениями из main.tf.
+   Для ресурсов yandex_compute_image и yandex_compute_instance заменил хардкод-значения на переменные **vm_web_image_family**, **vm_web_vpc_name**, **vm_web_platform**, объявив их в файле variables.tf.
+   Заполнил их default прежними значениями из main.tf.
+   
 Команада **terraform plan** выдала результат **No changes**.
 
 </details>
