@@ -61,6 +61,8 @@
 </details>
 
 <details><summary>Задание 5</summary>
+   Создал переменные **env** (list c одним значением) и **project** (list с двумя значениями)
+   
 Описал в файле locals.tf в local-блоке имя каждой ВМ, использовал интерполяцию:
    
    ``name = "netology-${ var.env[i]}-platform-${ var.project[j] }"``
