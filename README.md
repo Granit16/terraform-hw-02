@@ -56,5 +56,6 @@
 В файле outputs.tf создал output, содержащий: instance_name, external_ip, fqdn для каждой из ВМ.
 
 Применил изменения.
+
  ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen4.png)
 </details>
