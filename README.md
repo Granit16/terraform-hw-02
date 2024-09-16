@@ -105,6 +105,7 @@ Terraform has compared your real infrastructure against your configuration and f
 
 <details><summary>Задание 7*</summary>
 1.
+
 ```
 > local.test_list[1]
 "staging"
