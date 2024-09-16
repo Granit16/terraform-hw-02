@@ -91,18 +91,15 @@ vms_resources = {
   }
 
 }
-
 ```
      
 2. Создал переменную **metadata** и включил в нее **serial-port-enable = 1** и **ssh-keys**.
 3. Закоментировал неиспользуемые переменные **variable "vm_web_instance_name" {...}** и **variable "vm_db_instance_name" {...}**
 4. Команда **terraform plan** сообщает об отсутсвии измененеий:
-   ```
-   No changes. Your infrastructure matches the configuration.
-   Terraform has compared your real infrastructure against your configuration and found no differences, so no changes are needed.
-   ```
-
-   
+```
+No changes. Your infrastructure matches the configuration.
+Terraform has compared your real infrastructure against your configuration and found no differences, so no changes are needed.
+```
 
 </details>
 
