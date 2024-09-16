@@ -72,4 +72,35 @@
 
 </details>
 
+<details><summary>Задание 6</summary>
+
+1. Создал **vms_resources** и описал в ней конфигигурации обеих ВМ:
+```
+vms_resources = {
+
+ web={
+    cores=2
+    memory=2
+    core_fraction=5
+  },
+
+  db= {
+    cores=2
+    memory=4
+    core_fraction=20
+  }
+
+}
+
+```
+
+     
+2. 
+
+
+   
+
+</details>
+
+
 
