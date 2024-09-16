@@ -53,7 +53,7 @@
 
 <details><summary>Задание 4</summary>
 
-В файле outputs.tf создал output, содержащий: instance_name, external_ip, fqdn для каждой из ВМ.
+В файле **outputs.tf** создал output, содержащий: **instance_name**, **external_ip**, **fqdn** для каждой из ВМ.
 
 Применил изменения.
 
