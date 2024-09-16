@@ -103,5 +103,33 @@ Terraform has compared your real infrastructure against your configuration and f
 
 </details>
 
+<details><summary>Задание 7*</summary>
+1.
+```
+> local.test_list[1]
+"staging"
+```
+   
+или
+   
+```
+> local.test_list.1
+"staging"
+```
+2.
+```
+> length(local.test_list)
+3
+```
+
+3.
+```
+> local.test_map["admin"]
+"John"
+```
+4.
+
+```four = "${ local.test_map["admin"] } is ${ keys(local.test_map).0 } for ${ keys(local.servers).1 } server based on OS ${ local.servers.production.image } with ${ local.servers.production.cpu } cpu, ${ local.servers.production.ram } ram and ${ length(local.servers.production.disks) } virtual disks"```
 
 
+</details>
