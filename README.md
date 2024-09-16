@@ -99,9 +99,8 @@ vms_resources = {
 4. Команда **terraform plan** сообщает об отсутсвии измененеий:
    ```
    No changes. Your infrastructure matches the configuration.
-
-Terraform has compared your real infrastructure against your configuration and found no differences, so no changes are needed.
-```
+   Terraform has compared your real infrastructure against your configuration and found no differences, so no changes are needed.
+   ```
 
    
 
