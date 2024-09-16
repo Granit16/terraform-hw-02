@@ -132,5 +132,6 @@ Terraform has compared your real infrastructure against your configuration and f
 
 ```four = "${ local.test_map["admin"] } is ${ keys(local.test_map).0 } for ${ keys(local.servers).1 } server based on OS ${ local.servers.production.image } with ${ local.servers.production.cpu } cpu, ${ local.servers.production.ram } ram and ${ length(local.servers.production.disks) } virtual disks"```
 
-
+ ![](https://github.com/Granit16/terraform-hw-02/blob/main/screenshots/screen7.png)
+ 
 </details>
